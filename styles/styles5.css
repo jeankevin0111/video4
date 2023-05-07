@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Creepster', cursive;
+    
+
+}
+header{
+    background-color: rgba(72, 226, 49, 0.445);
+    display: flex;
+    gap: 20px;
+    grid-gap: 20px;
+}
+
+.logo{
+    width: 200px;
+}
+.jk{
+    display: flex;
+    align-items: center;
+}
+
+.jka {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    grid-gap: 100px ;
+    align-items: center;
+
+
+}
+
+
+.jka_menu a {
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+
+}
+
+.jk_menu.active a, .active,  a:hover {
+    text-decoration: underline double;
+
+}
+
+.sex{
+    height: 80vh;
+    background-image: url(../templace/jordan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    flex-direction: column;
+    padding-inline:400px ;
+    
+    
+
+}
+
+.sex h2{
+    color: beige;
+    background-color: rgba(193, 193, 193, 0.138);
+    padding-inline: 300px;
+    border-radius: 20%;
+
+}
+
+.sex p{
+    color: beige;
+    
+}
+.tarjeta{
+    padding: 70px;
+    color: rgb(3, 3, 3);
+    display:inline-flex;
+    gap: 30px; 
+    
+
+}   
+.tar{
+    
+    background-color: rgba(72, 226, 49, 0.445);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+    
+
+    
+}
+
+.tar_ima{
+    max-width: 100%;
+    flex: 1; 
+
+}
+.info{
+   padding: 0px 20px 20px 20px; 
+}
